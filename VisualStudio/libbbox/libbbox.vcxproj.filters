@@ -18,9 +18,15 @@
     <ClInclude Include="..\..\include\boundingbox.hpp">
       <Filter>include</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\include\libbbox.h">
+      <Filter>include</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\src\boundingbox.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\libbbox.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>

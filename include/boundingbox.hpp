@@ -1,6 +1,6 @@
 //************FOR CPP STYLE******************//
-#ifndef _BOUNDINGBOX_CPP_HPP_
-#define _BOUNDINGBOX_CPP_HPP_
+#ifndef _BOUNDINGBOX_HPP_
+#define _BOUNDINGBOX_HPP_
 
 #ifndef EXTERN_C
 #ifdef __cplusplus
@@ -196,6 +196,6 @@ private:
 	bool difficult_;
 };
 //common version for overlap function
-API_PROTOCOL float CALL_PROTOCOL bboxes_overlap(const BoundingBox& bbox1,
+API_PROTOCOL float CALL_PROTOCOL boundingboxes_overlap(const BoundingBox& bbox1,
 	const BoundingBox& bbox2, const bool inclass = true);
-#endif // !_BOUNDINGBOX_CPP_HPP_
+#endif // !_BOUNDINGBOX_HPP_

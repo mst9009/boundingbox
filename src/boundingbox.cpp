@@ -345,7 +345,7 @@ bool BoundingBox::contain(float x, float y, bool normalized, bool proper) const 
 	}
 }
 
-API_PROTOCOL float CALL_PROTOCOL bboxes_overlap(const BoundingBox& bbox1, const BoundingBox& bbox2, const bool inclass/* = true*/)
+API_PROTOCOL float CALL_PROTOCOL boundingboxes_overlap(const BoundingBox& bbox1, const BoundingBox& bbox2, const bool inclass/* = true*/)
 {
 	return bbox1.overlap(bbox2, inclass);
 }

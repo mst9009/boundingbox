@@ -120,9 +120,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="..\..\include\boundingbox.hpp" />
+    <ClInclude Include="..\..\include\libbbox.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\src\boundingbox.cpp" />
+    <ClCompile Include="..\..\src\libbbox.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
